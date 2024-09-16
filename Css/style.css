@@ -1,0 +1,91 @@
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    width: 200px;
+    height: 44px;
+    text-align: center;
+    background-color: rgba(220, 220, 220, 0.75);
+    border: 3px solid rgba(255, 255, 255, 0.8);
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-image: url(SwedenIcon.png);
+}
+
+li {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+article {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#LeftImageSection {
+    order: 1;
+    flex: 1;
+}
+
+#TextSection {
+    background-color: rgba(220, 220, 220, 0.75);
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    order: 2;
+    flex: 2
+}
+
+#RightImageSection {
+    order: 3;
+    flex: 1;
+}
+
+#AboutSweden {
+    order: 1;
+    flex: 90%;
+}
+
+#SwedenPluses {
+    order: 2;
+    flex: 90%;
+}
