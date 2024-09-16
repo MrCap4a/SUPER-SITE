@@ -1,0 +1,18 @@
+p {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-image: url(https://static.tildacdn.com/tild3664-3263-4630-b631-336563633933/197564.png);
+}
